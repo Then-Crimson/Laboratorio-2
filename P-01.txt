@@ -2,7 +2,7 @@
 
 Las Template Strings son unas características de ES6 que nos permite la interpolacion de cadenas de texto de una manera mas sencilla y legible.  Se definen utilizando comillas invertidas (`), y permiten lo siguiente:
 
-1.-Interpolación de expresiones: Se puede insertar cualquier expresión JavaScript válida dentro de ${} y este se evaluará como parte de la cadena.
+Interpolación de expresiones: Se puede insertar cualquier expresión JavaScript válida dentro de ${} y este se evaluará como parte de la cadena.
 
 Multilínea: Las Template Strings pueden abarcar varias líneas sin necesidad de utilizar el carácter de escape de salto de línea (\n).
 

@@ -1,0 +1,43 @@
+## 1.-En la siguiente línea de código, se pueden observar el uso de comillas invertidas, estas se usan para la creación de template Strings, nombra algunas características importantes y como es que funcionan los anteriormente mencionados “template Strings” y como estos se diferencias de las comillas simples y dobles. :computer:
+
+Las Template Strings son unas características de ES6 que nos permite la interpolacion de cadenas de texto de una manera mas sencilla y legible.  Se definen utilizando comillas invertidas (`), y permiten lo siguiente: 
+
+
+
+**Interpolación de expresiones:** Se puede insertar cualquier expresión JavaScript válida dentro de ${} y este se evaluará como parte de la cadena.
+
+**Multilínea:** Las Template Strings pueden abarcar varias líneas sin necesidad de utilizar el carácter de escape de salto de línea (\n).
+
+**Incorporación de funciones:** Las Template Strings pueden incorporar funciones, permitiendo una mayor flexibilidad y funcionalidad.
+
+Las comillas simples (') y dobles (") en JavaScript se utilizan para definir cadenas de texto estándar. No permiten la interpolación de expresiones ni cadenas multilínea de manera directa. Para lograr algo similar, se debe recurrir a la concatenación y a los caracteres de escape, lo cual puede resultar menos legible y más propenso a errores.
+
+En resumen, las Template Strings ofrecen una sintaxis más limpia y funcional para trabajar con cadenas de texto en JavaScript. Sin embargo, es importante tener en cuenta que no son compatibles con versiones antiguas de JavaScript o navegadores más antiguos. :space_invader:
+
+---
+
+## 3.- TypeScript talvez te suene familiar, pero sin duda es muy relevante en cuanto al desarrollo web. Nombra algunas características importantes de TypeScript y que diferencia se tiene si lo comparamos con JavaScript. :computer:
+
+TypeScript es un superconjunto tipado de JavaScript que se compila a JavaScript puro. Añade características estáticas opcionales a JavaScript, lo que puede ayudar a los desarrolladores a evitar errores comunes al escribir código. 
+
+Entre sus características tenemos:
+
+Tipos estáticos: TypeScript introduce un sistema de tipos estáticos opcional que puede ayudarte a prevenir muchos errores comunes en el desarrollo de JavaScript. Los tipos son una forma de describir las formas de los objetos, proporcionando una forma de verificar que tu código esté funcionando correctamente.
+
+Clases y módulos: TypeScript ofrece soporte completo para las clases y módulos de ES2015, e incluso añade algunas características adicionales como los modificadores de acceso public, private y protected.
+
+Interfaces: Las interfaces son una forma poderosa de definir contratos dentro de tu código y contratos con código fuera de tus proyectos.
+
+Genéricos: Los genéricos son herramientas para crear componentes reutilizables, permitiendo a un usuario consumir estos componentes y usar sus propios tipos.
+
+Algunas diferencias clave entre TypeScript y JavaScript son:
+
+**1. Tipado estático: Mientras que TypeScript tiene tipado estático, JavaScript es un lenguaje de tipado dinámico.**
+
+**2. Orientación a objetos: TypeScript ofrece una sintaxis más clara y robusta para la programación orientada a objetos en comparación con JavaScript.**
+
+**3. Compilación: TypeScript necesita ser compilado a JavaScript antes de ser ejecutado, mientras que JavaScript se interpreta directamente por el navegador.**
+
+**4. Compatibilidad con versiones anteriores: TypeScript puede ser configurado para ser compatible con versiones anteriores de JavaScript, lo que facilita la migración de proyectos existentes a TypeScript.**
+
+Es importante mencionar que TypeScript no es un reemplazo de JavaScript, sino una adición. Todo el código JavaScript válido es también código TypeScript válido. TypeScript simplemente añade más funcionalidad y herramientas para ayudar a los desarrolladores a escribir código más robusto y mantenible. Sin embargo, debido a que TypeScript se compila a JavaScript, es compatible con todos los navegadores y entornos que soportan JavaScript. :space_invader:
